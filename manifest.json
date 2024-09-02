@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Ytmp3.nu Converter Chrome Port",
+  "version": "1.1",
+  "description": "Our YouTube Converter allows you to convert your favourite YouTube videos to MP3 or MP4 files, and download them for free. (PORTED TO CHROME BY morgfx)",
+  "homepage_url": "https://ytmp3.nu/",
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/32.png",
+    "default_title": "YtMp3",
+    "default_popup": "popup/popup.html"
+  }
+}
