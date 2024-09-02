@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>YouTube Converter</title>
+<meta charset="UTF-8">
+<style>
+#popup{width:144px;padding:10px;} 
+#error{font-size:14px;width:144px;display:none;}
+#selection{text-align:center;width:144px;}
+#selection button{color:#ffffff;background-color:#0086e7;font-size:14px;font-weight:bold;width:128px;border:none;border-radius:3px;margin-bottom:10px;padding:16px 8px;cursor:pointer;}
+#selection button:last-of-type{margin-bottom:0;}
+</style>
+</head>
+<body>
+ <div id="popup">
+  <div id="error">
+   No valid YouTube video URL.
+  </div>
+  <div id="selection">
+   <button id="mp3">Convert to MP3</button>
+   <button id="mp4">Convert to MP4</button>
+   <button>Visit Website</button>
+  </div>
+ </div>
+ <script src="popup.js"></script>
+</body>
+</html>
